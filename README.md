@@ -104,7 +104,7 @@ We would like to acknowledge the following resources and references that inspire
 - [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
 - [Pinecone Documentation](https://www.pinecone.io/docs/)
 - [OpenAI API Documentation](https://beta.openai.com/docs/)
-- [Langchain Documentation](https://langchain.io/docs/)
+- [Langchain Documentation](https://python.langchain.com/docs/introduction/)
 - [Render Documentation](https://render.com/docs)
 - [Docker Documentation](https://docs.docker.com/)
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
