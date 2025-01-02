@@ -6,7 +6,7 @@ Welcome to the repository for the **University Chatbot Project**! This project a
 
 ## **Key Features**
 
-- **Web Scraping & ETL**: Automates data collection from university websites and extracts useful information from PDF files using `PyPDF2`. The extracted data undergoes cleaning, processing, and transformation for use in the chatbot.
+- **Data Collection**: Automates data collection by webscraping information from university websites and extracts useful information from PDF files using `PyPDF2`. The extracted data undergoes cleaning, processing, and transformation for use in the chatbot.
 - **LLM Connection**: Uses Langchain to integrate large language models (OpenAI, Gemini) with external data sources for accurate query resolution.
 - **Vector Database**: Implements Pinecone for efficient storage and fast retrieval of data, enabling the chatbot to perform accurate and quick searches.
 - **Multilingual Support**: Provides responses in multiple languages (e.g., Spanish, Italian) to support diverse user groups.
@@ -40,3 +40,29 @@ Welcome to the repository for the **University Chatbot Project**! This project a
 ```bash
 git clone https://github.com/username/university-chatbot.git
 cd university-chatbot
+
+### **2. Install Required Packages**
+```bash
+pip install -r requirements.txt  
+
+### **3. Configure Environment Variables**
+```
+OPENAI_API_KEY=your_openai_api_key  
+PINECONE_API_KEY=your_pinecone_api_key  
+PINECONE_ENVIRONMENT=your_pinecone_environment  
+RENDER_API_KEY=your_render_api_key  
+
+### **4. Run the Chatbot Application**
+**Launch the chatbot locally using Streamlit**
+```bash
+streamlit run app.py
+
+### **5 Project Workflow**
+- **Data Extraction**: Data Extraction: Scrape university websites and extract PDF content.
+- **Data Processing**: Transform data using Pandas and store it in a Pinecone vector database for quick retrieval.
+- **LLM integration**: Use Langchain to connect the stored data to an LLM for context-aware query resolution.
+- **UI Deployment**: Create a user-friendly interface with Streamlit.
+- **Evaluation**: Measure the chatbot’s accuracy using metrics like BERT score and other LLM evaluation tools.
+- **CI/CD**: Use GitHub Actions for continuous integration and delivery, ensuring streamlined collaboration and project updates.
+- **Deployment**: Deploy the chatbot on Render or Docker, with optional CI/CD pipelines using GitHub Actions.
+- **Performance Monitoring**: Includes logging mechanisms to track the chatbot's performance and identify areas for improvement.
