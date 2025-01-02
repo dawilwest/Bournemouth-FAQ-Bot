@@ -52,12 +52,12 @@ PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_ENVIRONMENT=your_pinecone_environment  
 RENDER_API_KEY=your_render_api_key  
 
-### **4. Run the Chatbot Application**
+## **4. Run the Chatbot Application**
 **Launch the chatbot locally using Streamlit**
 ```bash
 streamlit run app.py
 
-### **5 Project Workflow**
+## **5 Project Workflow**
 - **Data Extraction**: Data Extraction: Scrape university websites and extract PDF content.
 - **Data Processing**: Transform data using Pandas and store it in a Pinecone vector database for quick retrieval.
 - **LLM integration**: Use Langchain to connect the stored data to an LLM for context-aware query resolution.
@@ -66,3 +66,42 @@ streamlit run app.py
 - **CI/CD**: Use GitHub Actions for continuous integration and delivery, ensuring streamlined collaboration and project updates.
 - **Deployment**: Deploy the chatbot on Render or Docker, with optional CI/CD pipelines using GitHub Actions.
 - **Performance Monitoring**: Includes logging mechanisms to track the chatbot's performance and identify areas for improvement.
+
+---
+
+## **6 Contributing** ###
+
+we welcome contributions from the community! If you're interested in contributing to this project, please follow these steps:
+ - Fork the repository
+    - Clone the forked repository (`git clone repository)
+    - Create a new branch (`git checkout -b feature/improvement`)
+    - Make your changes and commit them (`git commit -am 'Add new feature'`)
+    - Push the changes to your branch (`git push origin feature/improvement`)
+    - Create a pull request
+
+---
+
+## **7. License**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+## **8. Contact Information**
+For further information or inquiries, please contact the project maintainers:
+- [Maintainer 1](mailto: nengikennwariso@gmail.com)
+- LinkedIn: [Maintainer 1](https://www.linkedin.com/in/tamunonengiyeofori-kenn-wariso-7759b2154/)
+
+---
+
+## **9. Acknowledgements**
+We would like to acknowledge the following resources and references that inspired and guided this project:
+- [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
+- [Pinecone Documentation](https://www.pinecone.io/docs/)
+- [OpenAI API Documentation](https://beta.openai.com/docs/)
+- [Langchain Documentation](https://langchain.io/docs/)
+- [Render Documentation](https://render.com/docs)
+- [Docker Documentation](https://docs.docker.com/)
+- [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [PY2PDF Documentation](https://pythonhosted.org/PyPDF2/)
+
+---
