@@ -64,7 +64,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## **5 Project Workflow**
+## **Project Workflow**
 - **Data Extraction**: Data Extraction: Scrape university websites and extract PDF content.
 - **Data Processing**: Transform data using Pandas and store it in a Pinecone vector database for quick retrieval.
 - **LLM integration**: Use Langchain to connect the stored data to an LLM for context-aware query resolution.
@@ -76,30 +76,30 @@ streamlit run app.py
 
 ---
 
-## **6 Contributing** ###
+## **Contributing** ###
 
 we welcome contributions from the community! If you're interested in contributing to this project, please follow these steps:
  - Fork the repository
-    - Clone the forked repository (`git clone repository)
+    - Clone the forked repository (`git clone repository`)
     - Create a new branch (`git checkout -b feature/improvement`)
     - Make your changes and commit them (`git commit -am 'Add new feature'`)
     - Push the changes to your branch (`git push origin feature/improvement`)
-    - Create a pull request
+    - Create a pull request to the main repository with a detailed description of the changes made and the reason for the changes. (`git pull-request`)
 
 ---
 
-## **7. License**
+## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-## **8. Contact Information**
+## **Contact Information**
 For further information or inquiries, please contact the project maintainers:
-- [Maintainer 1](mailto: nengikennwariso@gmail.com)
-- LinkedIn: [Maintainer 1](https://www.linkedin.com/in/tamunonengiyeofori-kenn-wariso-7759b2154/)
+- (mailto: nengikennwariso@gmail.com)
+- LinkedIn: [Tamunonengiyeofori Kenn-Wariso](https://www.linkedin.com/in/tamunonengiyeofori-kenn-wariso-7759b2154/)
 
 ---
 
-## **9. Acknowledgements**
+## **Acknowledgements**
 We would like to acknowledge the following resources and references that inspired and guided this project:
 - [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
 - [Pinecone Documentation](https://www.pinecone.io/docs/)
@@ -109,6 +109,6 @@ We would like to acknowledge the following resources and references that inspire
 - [Docker Documentation](https://docs.docker.com/)
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [PY2PDF Documentation](https://pythonhosted.org/PyPDF2/)
+- [PY2PDF Documentation](https://pypdf2.readthedocs.io/en/3.x/)
 
 ---
