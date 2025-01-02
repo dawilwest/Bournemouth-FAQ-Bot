@@ -1,6 +1,7 @@
-# **University Chatbot with Advanced NLP and LLM Integration**
+# **University FAQ Chatbot for Bournemouth University with LLM Integration**
 
-Welcome to the repository for the **University Chatbot Project**! This project aims to build a robust, context-based chatbot designed to provide accurate and conversational responses to user queries. Leveraging state-of-the-art natural language processing (NLP) techniques, this chatbot connects large language models (LLMs) to external data sources, ensuring reliable and real-time information retrieval.
+## Introduction
+Welcome to the repository for the **Bournemouth University Chatbot Project**! This project aims to build a robust, context-based chatbot designed to provide accurate and conversational responses to user queries. Leveraging state-of-the-art natural language processing (NLP) techniques, this chatbot connects large language models (LLMs) to external data sources, ensuring reliable and real-time information retrieval.
 
 ---
 
@@ -36,26 +37,32 @@ Welcome to the repository for the **University Chatbot Project**! This project a
 
 ## **Setup and Installation**
 
-### **1. Clone the Repository**
+1. Clone the Repository
 ```bash
 git clone https://github.com/username/university-chatbot.git
 cd university-chatbot
-
-### **2. Install Required Packages**
-```bash
-pip install -r requirements.txt  
-
-### **3. Configure Environment Variables**
 ```
-OPENAI_API_KEY=your_openai_api_key  
-PINECONE_API_KEY=your_pinecone_api_key  
-PINECONE_ENVIRONMENT=your_pinecone_environment  
-RENDER_API_KEY=your_render_api_key  
 
-## **4. Run the Chatbot Application**
-**Launch the chatbot locally using Streamlit**
+2. Create a Virtual Environment and activate it
+```bash
+python -m venv venv
+source venv/bin/activate # Linux/Mac OS
+venv\Scripts\activate # Windows
+```
+
+3. Install Dependencies and required packages
+```bash
+pip install -r requirements.txt 
+```
+4. Create '.env file and configure Environment Variables (Refer to the .env.example file) for the required configuration settings.
+
+5. Get the API keys for OpenAI, Pinecone, and Render and update the .env file with the respective keys from [Pinecone](https://www.pinecone.io/docs/), [OpenAI](https://beta.openai.com/docs/), and [Render](https://render.com/docs).
+
+
+6. Run the Chatbot Application
 ```bash
 streamlit run app.py
+```
 
 ## **5 Project Workflow**
 - **Data Extraction**: Data Extraction: Scrape university websites and extract PDF content.

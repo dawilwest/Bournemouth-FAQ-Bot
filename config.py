@@ -14,6 +14,3 @@ completion = client.chat.completions.create(
 
 print(completion.choices[0].message)
 
-git remote add origin https://github.com/Tamunonengiyeofori/Bournemouth-FAQ-Bot.git
-git branch -M main
-git push -u origin main
