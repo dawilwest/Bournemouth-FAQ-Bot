@@ -35,6 +35,11 @@ Welcome to the repository for the **Bournemouth University Chatbot Project**! Th
 
 ---
 
+## Technical Work
+
+### Architecture Diagram
+![Architecture Diagram](screenshots/LLM_Architecture.drawio.png)
+
 ## **Setup and Installation**
 
 1. Clone the Repository
