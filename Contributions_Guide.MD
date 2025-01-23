@@ -125,7 +125,6 @@ By contributing to this repository, you agree to:
 - Follow the repository’s contribution and workflow guidelines.
 - Report any issues or violations to the repository maintainers.
 
-For detailed guidelines, refer to [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ---
 
